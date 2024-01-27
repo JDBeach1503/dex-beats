@@ -1,0 +1,57 @@
+/* General container and layout */
+.boombox-container {
+    background: #FFC107; /* Bootstrap warning color */
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Speaker styling */
+  .speaker {
+    border: 5px solid #343a40; /* Bootstrap dark color */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+  }
+  
+  .inner-speaker {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: #343a40; /* Bootstrap dark color */
+    border-radius: 50%;
+  }
+  
+  /* Display screen styling */
+  .display-screen {
+    background: #17a2b8; /* Bootstrap info color */
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Dial styling */
+  .dial-container {
+    margin: 1rem 0;
+  }
+  
+  .dial {
+    background: #6c757d; /* Bootstrap secondary color */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Control buttons styling */
+  .btn-control {
+    margin: 0.5rem;
+  }
+  
